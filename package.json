@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/carlosbetan42/kings-league/issues"
   },
-  "homepage": "https://github.com/carlosbetan42/kings-league#readme"
+  "homepage": "https://github.com/carlosbetan42/kings-league#readme",
+  "dependencies": {
+    "cheerio": "1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "standard": "17.0.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
 }
