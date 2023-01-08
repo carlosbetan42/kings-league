@@ -1,6 +1,4 @@
-module.exports = {
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module'
-  }
+export const parserOptions = {
+  ecmaVersion: 'latest',
+  sourceType: 'module'
 };
