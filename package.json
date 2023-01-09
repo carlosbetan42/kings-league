@@ -25,11 +25,11 @@
     "hono": "2.7.2"
   },
   "devDependencies": {
-    "standard": "17.0.0",
+    "semistandard": "^16.0.1",
     "vitest": "0.26.3",
     "wrangler": "2.6.2"
   },
   "eslintConfig": {
-    "extends": "standard"
+    "extends": "semistandard"
   }
 }
