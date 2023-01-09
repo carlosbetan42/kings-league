@@ -1,15 +1,11 @@
-import { unstable_dev } from 'wrangler';
+import { unstable_dev as UnStableDev } from 'wrangler';
 import { describe, expect, it, beforeAll, afterAll } from 'vitest';
 
 describe('Worker', () => {
   let worker;
 
   beforeAll(async () => {
-    worker = await unstable_dev(
-      'src/index.js',
-      {},
-      { disableExperimentalWarning: true }
-    );
+    worker = await UnStableDev('src/index.js', {}, { disableExperimentalWarning: true });
   });
 
   afterAll(async () => {
@@ -20,7 +16,7 @@ describe('Worker', () => {
     const resp = await worker.fetch();
     if (resp) {
       const text = await resp.text();
-      expect(text).toMatchInlineSnapshot(`"Hello World!"`);
+      expect(text).toMatchInlineSnapshot('Hello World!');
     }
   });
 });
