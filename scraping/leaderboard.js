@@ -48,8 +48,6 @@ import path from 'node:path';
         return [key, value];
       });
 
-      console.log(Object.fromEntries(leaderBoardEntries));
-
       const { teamName, ...leaderBoardForTeam } = Object.fromEntries(leaderBoardEntries);
       const team = getTeamFrom({ name: teamName });
 
