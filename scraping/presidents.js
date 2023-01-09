@@ -37,7 +37,12 @@ import path from 'node:path';
       await writeFile(`${STATIC_PATHS}/${imageFileName}`, buffer);
 
       console.log('>everything is done: ', name);
-      return { id, name, image: imageFileName, teamId: 0 };
+      return {
+        id,
+        name,
+        image: 'https://kings-league-api.carlos-betan-42.workers.dev/static/presidents/' + imageFileName,
+        teamId: 0
+      };
     })
   );
 
