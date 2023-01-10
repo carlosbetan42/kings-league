@@ -11,13 +11,18 @@
       "name": "Ultimate Móstoles",
       "image": "/ultimate-mostoles.svg",
       "url": "",
-      "president": "???",
       "channel": "https://twitch.tv/1k",
       "coach": "???",
       "socialNetworks": [
         "https://m.youtube.com/user/DjMaRiiO/videos"
       ],
-      "players": []
+      "players": [],
+      "president": {
+        "id": "djmariio",
+        "name": "DjMaRiiO",
+        "image": "https://kings-league-api.carlos-betan-42.workers.dev/static/presidents/djmariio.png",
+        "teamId": 0
+      }
     }
   },
   {
@@ -32,7 +37,6 @@
       "name": "1K FC",
       "image": "/1k.svg",
       "url": "",
-      "president": "???",
       "channel": "https://twitch.tv/1k",
       "coach": "???",
       "socialNetworks": [
@@ -41,7 +45,13 @@
         "https://www.youtube.com/c/IkerCasillas",
         "https://www.tiktok.com/@1kfutbolclub"
       ],
-      "players": []
+      "players": [],
+      "president": {
+        "id": "iker-casillas",
+        "name": "Iker Casillas",
+        "image": "https://kings-league-api.carlos-betan-42.workers.dev/static/presidents/iker-casillas.png",
+        "teamId": 0
+      }
     }
   },
   {
@@ -56,13 +66,18 @@
       "name": "Saiyans FC",
       "image": "/saiyans-fc.svg",
       "url": "",
-      "president": "???",
       "channel": "https://twitch.tv/1k",
       "coach": "???",
       "socialNetworks": [
         "https://www.twitch.tv/thegrefg"
       ],
-      "players": []
+      "players": [],
+      "president": {
+        "id": "thegrefg",
+        "name": "TheGrefg",
+        "image": "https://kings-league-api.carlos-betan-42.workers.dev/static/presidents/thegrefg.png",
+        "teamId": 0
+      }
     }
   },
   {
@@ -77,13 +92,18 @@
       "name": "Kunisports",
       "image": "/kunisports.svg",
       "url": "",
-      "president": "???",
       "channel": "https://twitch.tv/1k",
       "coach": "???",
       "socialNetworks": [
         "https://www.twitch.tv/slakun10"
       ],
-      "players": []
+      "players": [],
+      "president": {
+        "id": "kun-aguero",
+        "name": "Kun Agüero",
+        "image": "https://kings-league-api.carlos-betan-42.workers.dev/static/presidents/kun-aguero.png",
+        "teamId": 0
+      }
     }
   },
   {
@@ -98,7 +118,6 @@
       "name": "El Barrio",
       "image": "/el-barrio.svg",
       "url": "",
-      "president": "???",
       "channel": "https://twitch.tv/1k",
       "coach": "???",
       "socialNetworks": [
@@ -107,7 +126,13 @@
         "https://twitter.com/elbarrioklk_",
         "https://www.tiktok.com/@elbarrioklk"
       ],
-      "players": []
+      "players": [],
+      "president": {
+        "id": "adri-contreras",
+        "name": "Adri Contreras",
+        "image": "https://kings-league-api.carlos-betan-42.workers.dev/static/presidents/adri-contreras.png",
+        "teamId": 0
+      }
     }
   },
   {
@@ -122,7 +147,6 @@
       "name": "Los Troncos FC",
       "image": "/los-troncos.png",
       "url": "",
-      "president": "???",
       "channel": "https://twitch.tv/1k",
       "coach": "???",
       "socialNetworks": [
@@ -131,7 +155,13 @@
         "https://twitter.com/elbarrioklk_",
         "https://www.tiktok.com/@elbarrioklk"
       ],
-      "players": []
+      "players": [],
+      "president": {
+        "id": "perxitaa",
+        "name": "Perxitaa",
+        "image": "https://kings-league-api.carlos-betan-42.workers.dev/static/presidents/perxitaa.png",
+        "teamId": 0
+      }
     }
   },
   {
@@ -146,14 +176,19 @@
       "name": "Porcinos FC",
       "image": "/porcinos-fc.svg",
       "url": "",
-      "president": "???",
       "channel": "https://twitch.tv/1k",
       "coach": "???",
       "socialNetworks": [
         "https://www.twitch.tv/ibai",
         "https://twitter.com/FCPorcinos"
       ],
-      "players": []
+      "players": [],
+      "president": {
+        "id": "ibai-llanos",
+        "name": "Ibai Llanos",
+        "image": "https://kings-league-api.carlos-betan-42.workers.dev/static/presidents/ibai-llanos.png",
+        "teamId": 0
+      }
     }
   },
   {
@@ -168,7 +203,6 @@
       "name": "Rayo de Barcelona",
       "image": "/rayo-barcelona.svg",
       "url": "",
-      "president": "???",
       "channel": "https://twitch.tv/1k",
       "coach": "???",
       "socialNetworks": [
@@ -177,7 +211,13 @@
         "https://twitter.com/RayodeBarcelona",
         "https://www.tiktok.com/@rayodebarcelona"
       ],
-      "players": []
+      "players": [],
+      "president": {
+        "id": "spursito",
+        "name": "Spursito",
+        "image": "https://kings-league-api.carlos-betan-42.workers.dev/static/presidents/spursito.png",
+        "teamId": 0
+      }
     }
   },
   {
@@ -192,7 +232,6 @@
       "name": "Jijantes FC",
       "image": "/jijantes.svg",
       "url": "",
-      "president": "???",
       "channel": "https://twitch.tv/1k",
       "coach": "???",
       "socialNetworks": [
@@ -201,7 +240,13 @@
         "https://twitter.com/JijantesFC?s=20&t=40PQRh7lXf2HVdUs1pe-9w",
         "https://www.tiktok.com/@jijantesfutbolclub"
       ],
-      "players": []
+      "players": [],
+      "president": {
+        "id": "gerard-romero",
+        "name": "Gerard Romero",
+        "image": "https://kings-league-api.carlos-betan-42.workers.dev/static/presidents/gerard-romero.png",
+        "teamId": 0
+      }
     }
   },
   {
@@ -216,13 +261,18 @@
       "name": "XBUYER TEAM",
       "image": "/xbuyer.svg",
       "url": "",
-      "president": "???",
       "channel": "https://twitch.tv/1k",
       "coach": "???",
       "socialNetworks": [
         "https://www.youtube.com/xbuyer"
       ],
-      "players": []
+      "players": [],
+      "president": {
+        "id": "hnos-buyer",
+        "name": "Hnos. Buyer",
+        "image": "https://kings-league-api.carlos-betan-42.workers.dev/static/presidents/hnos-buyer.png",
+        "teamId": 0
+      }
     }
   },
   {
@@ -237,13 +287,18 @@
       "name": "Aniquiladores FC",
       "image": "/aniquiladores.svg",
       "url": "",
-      "president": "???",
       "channel": "https://twitch.tv/1k",
       "coach": "???",
       "socialNetworks": [
         "https://www.twitch.tv/juansguarnizo"
       ],
-      "players": []
+      "players": [],
+      "president": {
+        "id": "juan-guarnizo",
+        "name": "Juan Guarnizo",
+        "image": "https://kings-league-api.carlos-betan-42.workers.dev/static/presidents/juan-guarnizo.png",
+        "teamId": 0
+      }
     }
   },
   {
@@ -258,14 +313,19 @@
       "name": "PIO FC",
       "image": "/pio.svg",
       "url": "",
-      "president": "???",
       "channel": "https://twitch.tv/1k",
       "coach": "???",
       "socialNetworks": [
         "https://www.twitch.tv/rivers_gg",
         "https://twitter.com/PIO_FC"
       ],
-      "players": []
+      "players": [],
+      "president": {
+        "id": "rivers",
+        "name": "Rivers",
+        "image": "https://kings-league-api.carlos-betan-42.workers.dev/static/presidents/rivers.png",
+        "teamId": 0
+      }
     }
   }
 ]
