@@ -12,5 +12,9 @@ export const TEAMS = await readDBFile('teams');
 export const PRESIDENTS = await readDBFile('presidents');
 
 export const writeDBFile = (dbName, data) => {
-  return writeFile(`${DB_PATH}/${dbName}.json`, JSON.stringify(data, null, 2), 'utf-8');
+  return writeFile(
+    `${DB_PATH}/${dbName}.json`,
+    JSON.stringify(data, null, 2),
+    'utf-8'
+  );
 };

@@ -104,7 +104,10 @@
     "presidentId": "ibai-llanos",
     "channel": "https://twitch.tv/1k",
     "coach": "???",
-    "socialNetworks": ["https://www.twitch.tv/ibai", "https://twitter.com/FCPorcinos"],
+    "socialNetworks": [
+      "https://www.twitch.tv/ibai",
+      "https://twitter.com/FCPorcinos"
+    ],
     "players": []
   },
   {
@@ -153,7 +156,10 @@
     "presidentId": "rivers",
     "channel": "https://twitch.tv/1k",
     "coach": "???",
-    "socialNetworks": ["https://www.twitch.tv/rivers_gg", "https://twitter.com/PIO_FC"],
+    "socialNetworks": [
+      "https://www.twitch.tv/rivers_gg",
+      "https://twitter.com/PIO_FC"
+    ],
     "players": []
   }
 ]

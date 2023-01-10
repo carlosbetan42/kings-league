@@ -5,7 +5,11 @@ describe('Worker', () => {
   let worker;
 
   beforeAll(async () => {
-    worker = await UnStableDev('src/index.js', {}, { disableExperimentalWarning: true });
+    worker = await UnStableDev(
+      'src/index.js',
+      {},
+      { disableExperimentalWarning: true }
+    );
   });
 
   afterAll(async () => {
