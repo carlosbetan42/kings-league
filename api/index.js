@@ -7,7 +7,7 @@ import presidents from '../db/presidents.json';
 const app = new Hono();
 
 app.get('/', (ctx) => {
-  return ctx.json(
+  return ctx.json([
     {
       endpoint: '/leaderboard',
       description: 'Returns the leaderboard'
@@ -20,7 +20,7 @@ app.get('/', (ctx) => {
       endpoint: '/presidents',
       description: 'Returns the presidents'
     }
-  );
+  ]);
 });
 
 app.get('/leaderboard', (ctx) => {
