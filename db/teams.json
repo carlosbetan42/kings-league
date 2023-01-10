@@ -45,7 +45,7 @@
   {
     "id": "los-troncos-fc",
     "name": "Los Troncos FC",
-    "image": "/los-troncos.png",
+    "image": "/los-troncos.svg",
     "url": "",
     "presidentId": "perxitaa",
     "channel": "https://twitch.tv/1k",
@@ -104,10 +104,7 @@
     "presidentId": "ibai-llanos",
     "channel": "https://twitch.tv/1k",
     "coach": "???",
-    "socialNetworks": [
-      "https://www.twitch.tv/ibai",
-      "https://twitter.com/FCPorcinos"
-    ],
+    "socialNetworks": ["https://www.twitch.tv/ibai", "https://twitter.com/FCPorcinos"],
     "players": []
   },
   {
@@ -156,10 +153,7 @@
     "presidentId": "rivers",
     "channel": "https://twitch.tv/1k",
     "coach": "???",
-    "socialNetworks": [
-      "https://www.twitch.tv/rivers_gg",
-      "https://twitter.com/PIO_FC"
-    ],
+    "socialNetworks": ["https://www.twitch.tv/rivers_gg", "https://twitter.com/PIO_FC"],
     "players": []
   }
 ]
