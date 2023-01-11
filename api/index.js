@@ -3,6 +3,8 @@ import { serveStatic } from 'hono/serve-static.module';
 import leaderboard from '../db/leaderboard.json';
 import teams from '../db/teams.json';
 import presidents from '../db/presidents.json';
+import topScorer from '../db/top_scorer.json';
+import mvp from '../db/mvp.json';
 
 const app = new Hono();
 
@@ -47,6 +49,14 @@ app.get('/presidents/:id', (ctx) => {
   return foundPresident
     ? ctx.json(foundPresident)
     : ctx.json({ message: 'President not found' }, 404);
+});
+
+app.get('/top-scorer', (ctx) => {
+  return ctx.json(topScorer);
+});
+
+app.get('/mvp', (ctx) => {
+  return ctx.json(mvp);
 });
 
 app.get('/static/*', serveStatic({ root: './' }));
