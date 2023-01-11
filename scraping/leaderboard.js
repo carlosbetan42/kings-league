@@ -1,4 +1,4 @@
-import { TEAMS, PRESIDENTS } from '../db/index.js';
+import { TEAMS, PRESIDENTS, COACHES } from '../db/index.js';
 import { cleanText } from './utils.js';
 
 const LEADERBOARD_SELECTORS = {
@@ -20,6 +20,11 @@ export const getLeaderboard = async ($) => {
     return { ...restTeam, president };
   };
 
+  const getCoachFromTeam = ({ name }) => {
+    const { name: coach } = COACHES.find((coach) => coach.teamName === name);
+    return coach;
+  };
+
   const leaderBoardSelectorEntries = Object.entries(LEADERBOARD_SELECTORS);
 
   const leaderboard = [];
@@ -35,10 +40,12 @@ export const getLeaderboard = async ($) => {
 
     const { teamName, ...leaderBoardForTeam } = Object.fromEntries(leaderBoardEntries);
     const team = getTeamFrom({ name: teamName });
+    const coach = getCoachFromTeam({ name: teamName });
 
     leaderboard.push({
       ...leaderBoardForTeam,
-      team
+      team,
+      coach
     });
   });
 

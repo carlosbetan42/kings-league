@@ -23,7 +23,8 @@
         "image": "https://kings-league-api.carlos-betan-42.workers.dev/static/presidents/djmariio.png",
         "teamId": 0
       }
-    }
+    },
+    "coach": "Nacho Castro"
   },
   {
     "wins": 2,
@@ -52,7 +53,8 @@
         "image": "https://kings-league-api.carlos-betan-42.workers.dev/static/presidents/iker-casillas.png",
         "teamId": 0
       }
-    }
+    },
+    "coach": "Julio García Mera"
   },
   {
     "wins": 2,
@@ -78,7 +80,8 @@
         "image": "https://kings-league-api.carlos-betan-42.workers.dev/static/presidents/thegrefg.png",
         "teamId": 0
       }
-    }
+    },
+    "coach": "Daniel Romo"
   },
   {
     "wins": 2,
@@ -104,7 +107,8 @@
         "image": "https://kings-league-api.carlos-betan-42.workers.dev/static/presidents/kun-aguero.png",
         "teamId": 0
       }
-    }
+    },
+    "coach": "Martín Posse"
   },
   {
     "wins": 1,
@@ -133,7 +137,8 @@
         "image": "https://kings-league-api.carlos-betan-42.workers.dev/static/presidents/adri-contreras.png",
         "teamId": 0
       }
-    }
+    },
+    "coach": "Juan Arroita"
   },
   {
     "wins": 1,
@@ -162,7 +167,8 @@
         "image": "https://kings-league-api.carlos-betan-42.workers.dev/static/presidents/perxitaa.png",
         "teamId": 0
       }
-    }
+    },
+    "coach": "Pol Font"
   },
   {
     "wins": 1,
@@ -189,7 +195,8 @@
         "image": "https://kings-league-api.carlos-betan-42.workers.dev/static/presidents/ibai-llanos.png",
         "teamId": 0
       }
-    }
+    },
+    "coach": "Juvenal Edjogo"
   },
   {
     "wins": 1,
@@ -218,7 +225,8 @@
         "image": "https://kings-league-api.carlos-betan-42.workers.dev/static/presidents/spursito.png",
         "teamId": 0
       }
-    }
+    },
+    "coach": "JuanluDBZ"
   },
   {
     "wins": 0,
@@ -247,7 +255,8 @@
         "image": "https://kings-league-api.carlos-betan-42.workers.dev/static/presidents/gerard-romero.png",
         "teamId": 0
       }
-    }
+    },
+    "coach": "Marc Carmona"
   },
   {
     "wins": 0,
@@ -273,7 +282,8 @@
         "image": "https://kings-league-api.carlos-betan-42.workers.dev/static/presidents/hnos-buyer.png",
         "teamId": 0
       }
-    }
+    },
+    "coach": "Víctor González"
   },
   {
     "wins": 0,
@@ -299,7 +309,8 @@
         "image": "https://kings-league-api.carlos-betan-42.workers.dev/static/presidents/juan-guarnizo.png",
         "teamId": 0
       }
-    }
+    },
+    "coach": "Sergio Verdirame"
   },
   {
     "wins": 0,
@@ -326,6 +337,7 @@
         "image": "https://kings-league-api.carlos-betan-42.workers.dev/static/presidents/rivers.png",
         "teamId": 0
       }
-    }
+    },
+    "coach": "Gerardo Torrado"
   }
 ]
