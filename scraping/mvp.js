@@ -1,5 +1,5 @@
-import { writeDBFile, TEAMS } from '../db/index.js';
-import { cleanText, scrape, URLS } from './utils.js';
+import { TEAMS } from '../db/index.js';
+import { cleanText } from './utils.js';
 
 const MVP_SELECTORS = {
   team: { selector: '.fs-table-text_3', typeOf: 'string' },
@@ -8,8 +8,7 @@ const MVP_SELECTORS = {
   mvps: { selector: '.fs-table-text_6', typeOf: 'number' }
 };
 
-const getMvpList = async () => {
-  const $ = await scrape(URLS.mvp);
+export const getMvp = async ($) => {
   const $rows = $('table tbody tr');
 
   const getImageFromTeam = ({ name }) => {
@@ -43,7 +42,3 @@ const getMvpList = async () => {
 
   return mvpList;
 };
-
-const mvpList = await getMvpList();
-
-await writeDBFile('mvpList', mvpList);
