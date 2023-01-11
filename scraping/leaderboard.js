@@ -1,5 +1,5 @@
-import { writeDBFile, TEAMS, PRESIDENTS } from '../db/index.js';
-import { cleanText, scrape, URLS } from './utils.js';
+import { TEAMS, PRESIDENTS } from '../db/index.js';
+import { cleanText } from './utils.js';
 
 const LEADERBOARD_SELECTORS = {
   teamName: { selector: '.fs-table-text_3', typeOf: 'string' },
@@ -11,8 +11,7 @@ const LEADERBOARD_SELECTORS = {
   redCards: { selector: '.fs-table-text_9', typeOf: 'number' }
 };
 
-const getLeaderboard = async () => {
-  const $ = await scrape(URLS.leaderboard);
+export const getLeaderboard = async ($) => {
   const $rows = $('table tbody tr');
 
   const getTeamFrom = ({ name }) => {
@@ -45,7 +44,3 @@ const getLeaderboard = async () => {
 
   return leaderboard;
 };
-
-const leaderboard = await getLeaderboard();
-
-await writeDBFile('leaderboard', leaderboard);
