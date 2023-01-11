@@ -11,6 +11,7 @@
     "dev": "astro dev",
     "preview": "astro preview",
     "publish:api": "wrangler publish api/index.js",
+    "scrape:mvp": "node scraping/mvp.js",
     "start": "astro dev",
     "test": "vitest"
   },
