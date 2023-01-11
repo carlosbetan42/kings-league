@@ -3,6 +3,7 @@ import { writeDBFile } from '../db/index.js';
 import { getLeaderboard } from './leaderboard.js';
 import { logError, logInfo, logSuccess } from './log.js';
 import { getMvp } from './mvp.js';
+import { getTopScores } from './top_scorer.js';
 
 export const SCRAPINGS = {
   leaderboard: {
@@ -12,6 +13,10 @@ export const SCRAPINGS = {
   mvp: {
     url: 'https://kingsleague.pro/estadisticas/mvp/',
     scraper: getMvp
+  },
+  top_scores: {
+    url: 'https://kingsleague.pro/estadisticas/goles/',
+    scraper: getTopScores
   }
   // coaches: {
   //   url: 'https://es.besoccer.com/competicion/info/kings-league/2023',
