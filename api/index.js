@@ -64,8 +64,6 @@ app.get('/static/*', serveStatic({ root: './' }));
 app.notFound((ctx) => {
   const { pathname } = new URL(ctx.req.url);
 
-  console.log(ctx.req.url);
-
   if (ctx.req.url.at(-1) === '/') {
     return ctx.redirect(pathname.slice(0, -1));
   }
