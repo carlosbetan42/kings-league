@@ -1,15 +1,17 @@
 ---
+import Container from '../components/Container.astro';
+import Table from '../components/Table.astro';
 import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title='Kings League InfoJobs'>
-  <main></main>
+  <main>
+    <section class='bg-[#e66000] py-20'>
+      <Container>
+        <div class=''>
+          <Table />
+        </div>
+      </Container>
+    </section>
+  </main>
 </Layout>
-
-<style>
-  main {
-    margin: auto;
-    padding: 1.5rem;
-    max-width: 60ch;
-  }
-</style>
