@@ -4,3 +4,9 @@ compatibility_date = "2023-01-08"
 
 [site]
 bucket = "./assets"
+
+[env.production]
+vars = { ENVIRONMENT = "production" }
+routes = [
+  { pattern = "kings-league-api.carlos-betan-42.workers.dev", custom_domain = true }
+]
