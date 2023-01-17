@@ -6,6 +6,7 @@
     "concededGoals": 4,
     "yellowCards": 3,
     "redCards": 1,
+    "rank": 1,
     "team": {
       "id": "saiyans-fc",
       "name": "Saiyans FC",
@@ -33,6 +34,7 @@
     "concededGoals": 7,
     "yellowCards": 0,
     "redCards": 0,
+    "rank": 2,
     "team": {
       "id": "1k",
       "name": "1K FC",
@@ -63,6 +65,7 @@
     "concededGoals": 3,
     "yellowCards": 2,
     "redCards": 0,
+    "rank": 3,
     "team": {
       "id": "kunisports",
       "name": "Kunisports",
@@ -90,6 +93,7 @@
     "concededGoals": 10,
     "yellowCards": 2,
     "redCards": 0,
+    "rank": 4,
     "team": {
       "id": "los-troncos-fc",
       "name": "Los Troncos FC",
@@ -120,6 +124,7 @@
     "concededGoals": 8,
     "yellowCards": 1,
     "redCards": 0,
+    "rank": 5,
     "team": {
       "id": "ultimate-mostoles",
       "name": "Ultimate Móstoles",
@@ -147,6 +152,7 @@
     "concededGoals": 9,
     "yellowCards": 1,
     "redCards": 0,
+    "rank": 6,
     "team": {
       "id": "porcinos-fc",
       "name": "Porcinos FC",
@@ -175,6 +181,7 @@
     "concededGoals": 7,
     "yellowCards": 1,
     "redCards": 0,
+    "rank": 7,
     "team": {
       "id": "el-barrio",
       "name": "El Barrio",
@@ -205,6 +212,7 @@
     "concededGoals": 9,
     "yellowCards": 0,
     "redCards": 0,
+    "rank": 8,
     "team": {
       "id": "rayo-barcelona",
       "name": "Rayo de Barcelona",
@@ -235,6 +243,7 @@
     "concededGoals": 9,
     "yellowCards": 1,
     "redCards": 0,
+    "rank": 9,
     "team": {
       "id": "aniquiladores-fc",
       "name": "Aniquiladores FC",
@@ -262,6 +271,7 @@
     "concededGoals": 8,
     "yellowCards": 3,
     "redCards": 0,
+    "rank": 10,
     "team": {
       "id": "xbuyer-team",
       "name": "XBUYER TEAM",
@@ -289,6 +299,7 @@
     "concededGoals": 12,
     "yellowCards": 2,
     "redCards": 0,
+    "rank": 11,
     "team": {
       "id": "jijantes-fc",
       "name": "Jijantes FC",
@@ -319,6 +330,7 @@
     "concededGoals": 9,
     "yellowCards": 4,
     "redCards": 0,
+    "rank": 12,
     "team": {
       "id": "pio-fc",
       "name": "PIO FC",
