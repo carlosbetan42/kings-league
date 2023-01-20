@@ -1,0 +1,57 @@
+---
+import Container from '@components/Container.astro';
+import TeamsSelectorCards from '@components/TeamsSelectorCards.astro';
+import Layout from '../../layouts/Layout.astro';
+
+const BASE_URL_LOGOS = 'https://kings-league-api.carlos-betan-42.workers.dev/static/logos';
+
+export async function getStaticPaths() {
+  const BASE_URL = 'https://kings-league-api.carlos-betan-42.workers.dev';
+  const response = await fetch(BASE_URL + '/teams');
+  const teams = await response.json();
+
+  return teams.map((team) => ({
+    params: { teamId: team.id },
+    props: { ...team }
+  }));
+}
+const { name, image, presidentId, coach, channel, players } = Astro.props;
+---
+
+<Layout title={name}>
+  <Container>
+    <div class='container m-auto my-8'>
+      <section class='flex items-center justify-between'>
+        <div class='flex items-center gap-x-12'>
+          <img
+            src={`${BASE_URL_LOGOS}${image}`}
+            alt={`Escudo del equipo ${name}`}
+            width='130'
+            height='130'
+          />
+          <h1 class='font-bold text-5xl'>{name}</h1>
+        </div>
+        <a
+          href={channel}
+          class='text-purple-900 font-bold'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          Twitch
+        </a>
+      </section>
+
+      <section class='my-2'>
+        <ul>
+          <li><b>Presidente:</b> {presidentId}</li>
+          <li><b>Entrenador:</b> {coach}</li>
+          <li><b>Jugadores:</b> {players.length}</li>
+        </ul>
+      </section>
+
+      <section class='my-2'>Estadísticas</section>
+
+      <TeamsSelectorCards />
+    </div>
+  </Container>
+</Layout>
