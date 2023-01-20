@@ -1,6 +1,4 @@
 ---
-const BASE_URL_LOGOS = 'https://kings-league-api.carlos-betan-42.workers.dev/static/logos';
-
 const response = await fetch('https://kings-league-api.carlos-betan-42.workers.dev/leaderboard');
 const leaderboard = await response.json();
 ---
@@ -23,7 +21,7 @@ const leaderboard = await response.json();
 
           return (
             <tr class='bg-white border-b'>
-              <th scope='row' class='px-6 py-4 font-title text-black whitespace-nowrap'>
+              <th scope='row' class='text-center px-6 py-4 font-title text-black whitespace-nowrap'>
                 {rank}
               </th>
               <td class='px-6 py-4 font-title'>
@@ -31,7 +29,7 @@ const leaderboard = await response.json();
                   class='flex items-center gap-x-4 transition hover:opacity-75'
                   href={`/team/${id}`}
                 >
-                  <img src={`${BASE_URL_LOGOS}${image}`} alt={`Logo de ${name}`} class='w-6 h-6' />
+                  <img src={`${image}`} alt={`Logo de ${name}`} class='w-6 h-6' />
                   {name}
                 </a>
               </td>
